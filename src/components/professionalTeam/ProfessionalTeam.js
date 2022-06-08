@@ -24,9 +24,9 @@ const ProfessionalTeam = () =>(
                         <h5>Bryan Nevalli</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
                         <div className={styles.socialIcons}>
-                            <a href="#"><img src={ProTeamTwitter} alt="Twitter"/></a>
-                            <a href="#"><img src={ProTeamFacebook} alt="Facebook"/></a>
-                            <a href="#"><img src={ProTeamInstagram} alt="Instagram"/></a>
+                            <a href=""><img src={ProTeamTwitter} alt="Twitter"/></a>
+                            <a href=""><img src={ProTeamFacebook} alt="Facebook"/></a>
+                            <a href=""><img src={ProTeamInstagram} alt="Instagram"/></a>
                         </div>
                     </div>
                     <div className={styles.mid}>
@@ -35,9 +35,9 @@ const ProfessionalTeam = () =>(
                         <h5>Bella Sebastian</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
                         <div className={styles.socialIcons}>
-                            <a href="#"><img src={ProTeamTwitter} alt="Twitter"/></a>
-                            <a href="#"><img src={ProTeamFacebook} alt="Facebook"/></a>
-                            <a href="#"><img src={ProTeamInstagram} alt="Instagram"/></a>
+                            <a href=""><img src={ProTeamTwitter} alt="Twitter"/></a>
+                            <a href=""><img src={ProTeamFacebook} alt="Facebook"/></a>
+                            <a href=""><img src={ProTeamInstagram} alt="Instagram"/></a>
                         </div>
                     </div>
                     <div className={styles.right}>
@@ -46,9 +46,9 @@ const ProfessionalTeam = () =>(
                         <h5>Lilly Adams</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
                         <div className={styles.socialIcons}>
-                            <a href="#"><img src={ProTeamTwitter} alt="Twitter"/></a>
-                            <a href="#"><img src={ProTeamFacebook} alt="Facebook"/></a>
-                            <a href="#"><img src={ProTeamInstagram} alt="Instagram"/></a>
+                            <a href=""><img src={ProTeamTwitter} alt="Twitter"/></a>
+                            <a href=""><img src={ProTeamFacebook} alt="Facebook"/></a>
+                            <a href=""><img src={ProTeamInstagram} alt="Instagram"/></a>
                         </div>
                     </div>
                 </div>

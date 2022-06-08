@@ -28,20 +28,20 @@ const Footer = () => {
                 <div className={styles.midFooter}>
                     <h5>Pages</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Team</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Team</a></li>
                     </ul>
                 </div>
                 <div className={styles.rightFooter}>
                     <h5>Informations</h5>
                     <ul>
-                        <li><a href="#">Terms & conditions</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="">Terms & conditions</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
                     </ul>
                 </div>
             </div>

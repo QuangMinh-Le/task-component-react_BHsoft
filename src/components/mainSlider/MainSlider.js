@@ -24,9 +24,9 @@ const MainSlider = () => (
                 </div>
             </div>
             <div className={styles.slidesButton}>
-                <div><a href="#"></a></div>
-                <div><a href="#"></a></div>
-                <div><a href="#"></a></div>
+                <div><a href=""></a></div>
+                <div><a href=""></a></div>
+                <div><a href=""></a></div>
             </div>
         </div>
     </div>
