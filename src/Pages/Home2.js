@@ -7,3 +7,4 @@ const Home2 = () => (
         <Header/>
     </div>
 );
+ export default Home2;
