@@ -7,6 +7,7 @@ import CoreService from "./components/coreService/CoreService";
 import AboutUs from "./components/aboutUs/AboutUs";
 import ProfessionalTeam from "./components/professionalTeam/ProfessionalTeam";
 import ContactUs from "./components/contactUs/ContactUs";
+import ToTopButton from "./components/toTopButton/ToTopButton";
 
 const App = () => (
     <div>
@@ -17,6 +18,7 @@ const App = () => (
         <ProfessionalTeam/>
         <ContactUs/>
         <Footer/>
+        <ToTopButton/>
         <Background/>
     </div>
 );

@@ -49,36 +49,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript">
-      //Header blur on scroll
-      $(window).scroll(function () {
-          var s = $(window).scrollTop();
-              $(".headerBlur").css({
-                  background: "rgba("+229+","+ 234 + "," + 255 +"," + (s/800.0) +")"
-              });
 
-      });
-
-      // To Top Button
-
-      var myBtn = document.getElementById("toTopButton");
-
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        myBtn.style.display = "block";
-        } else {
-        myBtn.style.display = "none";
-        }
-  }
-
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-  }
-  </script>
   </body>
 </html>

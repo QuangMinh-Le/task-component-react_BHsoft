@@ -8,8 +8,10 @@ import FooterLinkedin from '../../img/linkedin-in.png';
 import FooterYoutube from '../../img/youtube.png';
 import FooterInstagram from '../../img/instagram (1).png';
 
-const Footer = () => (
-    <div>
+const Footer = () => {
+
+    return (
+        <div>
         <footer>
             <div className={styles.contentFooter}>
                 <div className={styles.leftFooter}>
@@ -45,8 +47,8 @@ const Footer = () => (
             </div>
 
             
-            <div className={styles.subContentFooter}>
-                <div className="media-icon">
+            <div className={styles.subcontentFooter}>
+                <div className={styles.mediaIcon}>
                     <a href=""><img src={FooterFacebook} alt="facebook icon"/></a>
                     <a href=""><img src={FooterTwitter} alt="twitter-icon"/></a>
                     <a href=""><img src={FooterLinkedin} alt="linkedin-icon"/></a>
@@ -54,11 +56,12 @@ const Footer = () => (
                     <a href=""><img src={FooterInstagram} alt="instagram-icon"/></a>
                 </div>
                 <div className={styles.copyright}>
-                    <p>&copy AltDesain Studio 2021 - All right reserved</p>
+                    <p>&copy; AltDesain Studio 2021 - All right reserved</p>
                 </div>
             </div>
         </footer>
     </div>
-);
+    )
+};
 
 export default Footer;
